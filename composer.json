@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "app/"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.3.3",
+        "guzzle/guzzle": "^3.9"
+    }
+}

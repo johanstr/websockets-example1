@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: black;
+}
+
+h1, h2, h3 {
+    margin-bottom: 14px;
+}
+
+.form {
+    display: block;
+    width: 70%;
+    min-height: 400px;
+    margin: 100px auto;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form > .form-body {
+    width: 50%;
+    float: left;
+    clear: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form > .form-body > .form-element {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.form > .form-body > .form-element:last-child {
+    margin-top: 40px;
+}
+
+.form > .form-body > .form-element > label {
+    display: inline-block;
+    float: left;
+    clear: none;
+    margin-right: 10px;
+    color: #cccccc;
+    font-style: italic;
+}
+
+.form > .form-body > .form-element > select {
+    display: inline-block;
+    float: left;
+    clear: right;
+}
+
+.form > .form-body > .form-element > input[type=button] {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #1e347b;
+    padding: 5px;
+    background-color: #1e347b;
+    color: #ffffff;
+}
+
+.form > .workshop-list {
+    width: 50%;
+    float: left;
+    clear: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.workshop-list > h3 {
+    margin: 0;
+}
+
+.workshop-list > ul {
+    list-style: none;
+}
+
+.workshop-list > ul > li {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 14px 0;
+}
+
+.workshop-list > ul > li > span.workshop-title {
+    display: inline-block;
+    width: 75%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.workshop-list > ul > li > span.workshop-places {
+    display: inline-block;
+    width: 25%;
+    padding: 0 20px 0 0;
+    margin: 0;
+    float: left;
+    text-align: right;
+}
